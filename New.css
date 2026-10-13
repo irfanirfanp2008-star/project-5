@@ -1,25 +1,47 @@
-.Logo
-{
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.navebar{
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 20px 30px;
+background-color: aliceblue;
+}
+.logo{
     display: flex;
-    align-content: center;
-    margin: auto;
-    border: 10px solid rebeccapurple;
-    padding: 30px;
-    height: auto;
-    justify-content: center;
-
+    gap: 20px;
+    align-items: center;
 }
-.search
-{
-    margin: 30px;
+.logo span {
+    font-size: 25px;
 }
-.search input
-{
-    width: 600px;
-    padding: 10px;
-}       
-.search button
-{
-    background-color: blueviolet;
-    padding: 10px;
+.logo a{
+    font-size: 25px;
+    font-weight: 900;
+    letter-spacing: -1px;
+}
+.searchbar{
+    padding: 0px 10px;
+    border: 1px solid rgb(186, 185, 181) ;
+    border-radius: 25px;
+    border-width: 500;
+    display: flex;
+    align-items: center;
+}
+.searchbar input{
+    border: 0px;
+    background-color: aliceblue;
+    align-items: center;
+}
+.searchbar span{
+    font-size: 25px;
+    align-items: center;
+    padding: 0px;
+}
+.icons{
+font-size: 25px;
+display: flex;
+gap: 20px;
 }
