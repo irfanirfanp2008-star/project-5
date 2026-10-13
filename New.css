@@ -1,0 +1,25 @@
+.Logo
+{
+    display: flex;
+    align-content: center;
+    margin: auto;
+    border: 10px solid rebeccapurple;
+    padding: 30px;
+    height: auto;
+    justify-content: center;
+
+}
+.search
+{
+    margin: 30px;
+}
+.search input
+{
+    width: 600px;
+    padding: 10px;
+}       
+.search button
+{
+    background-color: blueviolet;
+    padding: 10px;
+}
