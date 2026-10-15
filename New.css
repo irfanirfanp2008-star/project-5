@@ -2,7 +2,6 @@ body {
   margin: 0px;
   padding: 0px;
 }
-
 .navebar {
   display: flex;
   align-items: center;
@@ -261,7 +260,6 @@ overflow: hidden;
   border-radius: 50%;
 }
 
-
 .meg {
     border: 1px solid rgb(65, 61, 61);
     width: 120px;
@@ -382,12 +380,6 @@ overflow: hidden;
     justify-content: space-between;
     margin: 80px 40px;
 }
-body {
-  font-family: Arial, sans-serif;
-  padding: 20px;
-  color: #333333;
-}
-
 footer {
   background-color: #ffffff;
   padding: 50px 40px;
